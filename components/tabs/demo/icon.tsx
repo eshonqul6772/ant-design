@@ -5,7 +5,7 @@ import { Tabs } from 'antd';
 const App: React.FC = () => (
   <Tabs
     defaultActiveKey="2"
-    items={[AppleOutlined, AndroidOutlined].map((Icon, i) => {
+    items={[AppleOutlined].map((Icon, i) => {
       const id = String(i + 1);
       return {
         key: id,
